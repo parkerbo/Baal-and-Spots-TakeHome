@@ -1,0 +1,40 @@
+.landing-frame-1 {
+	/* padding: 0% 8%; */
+}
+.landing-frame-1-right {
+	background-image: url("../src/assets/images/DesktopRightBackground.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 918px;
+	position: relative;
+}
+.landing-frame-1-right-hand {
+	position: absolute;
+	left: 28.93%;
+	right: 7.23%;
+	top: 15.47%;
+	bottom: -0.11%;
+}
+.landing-frame-1-right-stars {
+	position: absolute;
+	width: 76px;
+	height: 79px;
+	left: 113px;
+	top: 193px;
+}
+.landing-frame-1-right-card {
+	position: absolute;
+	left: 14.15%;
+	right: 17.54%;
+	top: 35.08%;
+	bottom: 37.47%;
+}
+.landing-frame-1-right-moto-aisla {
+	position: absolute;
+right: 0;
+bottom: 0%;
+filter: brightness(0) saturate(100%) invert(100%) sepia(24%) saturate(4%) hue-rotate(111deg) brightness(100%) contrast(101%);
+opacity: 0.5;
+
+}
