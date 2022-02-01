@@ -5,7 +5,11 @@
 
 @font-face {
   font-family: "Cormorant Garamond";
-  src: url("../src/assets/fonts/CormorantGaramond-Regular.ttf") format("woff")
+  src: url("../src/assets/fonts/CormorantGaramond-Regular.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Cormorant Garamond-Light";
+  src: url("../src/assets/fonts/CormorantGaramond-Light.ttf") format("truetype")
 }
 
 body {

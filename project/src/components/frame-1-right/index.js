@@ -1,7 +1,8 @@
-import handImage from "../../assets/images/DesktopHand.png";
-import desktopCardImage from "../../assets/images/DesktopCreditCard.png";
-import starsImage from "../../assets/images/stars.png";
-import motoAislaImage from "../../assets/images/DesktopGraphicOverlay.png";
+import handImage from "../../assets/images/DesktopHand.svg";
+import desktopCardImage from "../../assets/images/DesktopCreditCard.svg";
+import starsImage from "../../assets/images/stars.svg";
+import motoAislaImage from "../../assets/images/DesktopGraphicOverlay.svg";
+import "./frame-1-right.css";
 
 const Frame1Right = () => {
     return (

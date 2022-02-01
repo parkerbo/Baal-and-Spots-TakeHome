@@ -2,7 +2,7 @@
 	/* padding: 0% 8%; */
 }
 .landing-frame-1-right {
-	background-image: url("../src/assets/images/DesktopRightBackground.png");
+	background-image: url("../../assets/images/DesktopRightBackground.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

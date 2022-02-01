@@ -1,6 +1,6 @@
 import "./navbar.css";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
-import cardoLogo from "../../assets/images/CardoLogo.png";
+import cardoLogo from "../../assets/images/CardoLogo.svg";
 
 const NavBar = () => {
     return (

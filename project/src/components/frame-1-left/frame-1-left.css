@@ -1,0 +1,47 @@
+.landing-frame-1-left {
+	position: relative;
+	margin-left: 8%;
+}
+
+.landing-frame-1-left-ellipses {
+	position: absolute;
+	width: 482px;
+	height: 482px;
+	left: 14px;
+	top: 91px;
+
+	background: radial-gradient(
+		50% 50% at 50% 50%,
+		#f8eae8 0%,
+		rgba(248, 234, 232, 0) 100%
+	);
+}
+#landing-frame-1-left-asteriks {
+	margin-left: 15px;
+	margin-top: 112px;
+}
+#landing-frame-1-left-tagline {
+    margin-top: 42px;
+    margin-right: 125px;
+	z-index: 2;
+	font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+	font-size: 65px;
+	line-height: 71px;
+
+	color: #1d1d1c;
+}
+#landing-frame-1-left-tagline-bold{
+    font-weight: 600;
+}
+#landing-frame-1-left-arrow{
+    margin-top:34px;
+}
+#landing-frame-1-left-details{
+    font-family:"Plus Jankarta Sans", sans-serif ;
+    font-size: 16px;
+    line-height: 22.4px;
+    z-index: 2;
+    margin-right:362px;
+    margin-top: 40px;
+}

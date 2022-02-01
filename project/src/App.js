@@ -1,9 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "./Landing.css";
 import { getLCP, getFID, getCLS } from "web-vitals";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
-
+import Frame1Left from "./components/frame-1-left";
 import Frame1Right from "./components/frame-1-right";
 import NavBar from "./components/navbar";
 
@@ -49,11 +48,9 @@ useEffect(() => {
 			<div className="landing-frame-1">
 				<GridRow>
 					<GridColumn width={7}>
-						<div className="landing-frame-1-left">
-              <NavBar />
-            </div>
+            <Frame1Left />
 					</GridColumn>
-					<GridColumn width={5}>
+					<GridColumn width={5} display={['none','initial']}>
           <Frame1Right />
 					</GridColumn>
 				</GridRow>
