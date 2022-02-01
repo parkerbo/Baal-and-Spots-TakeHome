@@ -4,7 +4,7 @@ import { getLCP, getFID, getCLS } from "web-vitals";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
 import Frame1Left from "./components/frame-1-left";
 import Frame1Right from "./components/frame-1-right";
-import NavBar from "./components/navbar";
+import Frame2 from "./components/frame-2";
 
 if (typeof window !== "undefined") {
   getCLS(console.log);
@@ -56,10 +56,7 @@ useEffect(() => {
 				</GridRow>
 			</div>
 
-			<div className="landing-frame-2"></div>
-			{/* {cards.map(card =>
-        <p>{card.title}</p>
-      )} */}
+			<Frame2 cards={cards} />
 		</div>
 	);
   } else {

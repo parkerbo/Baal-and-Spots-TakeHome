@@ -1,0 +1,24 @@
+.landing-frame-2 {
+	background-color: #1d1d1c;
+	padding: 100px 112px 0px 112px;
+    padding-bottom: 50px;
+}
+.landing-frame-2-header {
+	color: white;
+	font-family: "Cormorant Garamond", serif;
+	margin: 0;
+    margin-bottom: 40px;
+	font-weight: 500;
+	font-size: 65px;
+	line-height: 71px;
+}
+
+@media only screen and (max-width: 600px){
+    .landing-frame-2{
+        padding: 10px 10px 0px 10px;
+    }
+    .landing-frame-2-header{
+        font-size: 48px;
+        padding: 50px 27px 0px 27px;
+    }
+}

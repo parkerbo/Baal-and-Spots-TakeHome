@@ -1,6 +1,13 @@
 .nav-bar{
     margin-top: 55px;
 }
+@media only screen and (max-width: 1024px){
+    .nav-bar{
+        width: 100vw;
+        display: flex;
+        margin-top: 36px;
+    }
+}
 
 #nav-bar-links{
     display: flex;
@@ -12,4 +19,12 @@
 #nav-bar-links li {
     list-style: none;
     margin-right: 50px;
+}
+#nav-bar-mobile-menu-button{
+    margin-left:auto;
+    justify-content: flex-end;
+    margin-top: 1px;
+    margin-right: 20px;
+    width: 50px;
+    cursor: pointer;
 }
