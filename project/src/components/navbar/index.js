@@ -1,6 +1,5 @@
 import "./navbar.css";
 import { GridWrap, GridRow, GridColumn } from "emotion-flex-grid";
-import navBarStars from "../../assets/images/NavBarStars.png";
 import cardoLogo from "../../assets/images/CardoLogo.png";
 
 const NavBar = () => {
@@ -9,9 +8,6 @@ const NavBar = () => {
 				<GridColumn>
 					<GridRow>
 						<GridColumn display="flex">
-							<div id="nav-bar-stars">
-                                <img src={navBarStars} alt="two black four pointed stars overlapping horizontally"/>
-                            </div>
 							<div id="nav-bar-logo">
                                 <img src={cardoLogo} alt="text displaying the word Cardo"/>
                             </div>
