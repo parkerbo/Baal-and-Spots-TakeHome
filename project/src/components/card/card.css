@@ -23,12 +23,12 @@
 	font-family: "Plus Jankarta Sans", sans-serif;
 	margin-bottom: 18px;
 }
-#feature-card-button {
+.feature-card-button {
 	width: 139px;
 	height: 33px;
-	background: #a5afd4;
+	background-color: #A5AFD4;
 	border-radius: 100px;
-    color: white;
+    color: black;
     border: none;
     font-size: 15px;
     line-height: 18px;

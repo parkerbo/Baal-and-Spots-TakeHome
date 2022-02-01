@@ -6,9 +6,9 @@ const Frame2 = ({ cards }) => {
 		<div className="landing-frame-2">
 			<h1 className="landing-frame-2-header">Experience The Cardo</h1>
 			<GridRow wrap="wrap">
-				{cards.map((card) => {
+				{cards.map((card, index) => {
 					return (
-						<GridColumn width={[12, 12, 12, 4]} >
+						<GridColumn key={index} width={[12, 12, 12, 4]}>
 							<Card card={card} />
 						</GridColumn>
 					);
