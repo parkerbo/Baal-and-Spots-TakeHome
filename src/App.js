@@ -44,18 +44,21 @@ useEffect(() => {
 
   if (isLoaded){
   return (
+    //main content div containing frames
 		<div className="landing-main-content">
+      //top frame, containing left and right sides for desktop, single pane for mobile.
 			<div className="landing-frame-1">
 				<GridRow>
 					<GridColumn width={7}>
             <Frame1Left />
 					</GridColumn>
+          //display this right side only on desktop
 					<GridColumn width={5} display={['none','none', 'none', 'initial']}>
           <Frame1Right />
 					</GridColumn>
 				</GridRow>
 			</div>
-
+    //bottom frame containing feature cards
 			<Frame2 cards={cards} />
 		</div>
 	);
