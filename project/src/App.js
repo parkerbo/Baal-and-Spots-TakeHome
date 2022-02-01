@@ -50,7 +50,7 @@ useEffect(() => {
 					<GridColumn width={7}>
             <Frame1Left />
 					</GridColumn>
-					<GridColumn width={5} display={['none','initial']}>
+					<GridColumn width={5} display={['none','none', 'none', 'initial']}>
           <Frame1Right />
 					</GridColumn>
 				</GridRow>
